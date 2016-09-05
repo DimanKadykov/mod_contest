@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Liverpoolfc.ru Contest module</name>
+	<author>Diman Kadykov</author>
+	<creationDate>July 2016</creationDate>
+	<copyright></copyright>
+	<license>GPL 2.0</license>
+	<authorEmail>d.kadykov@gmail.com</authorEmail>
+	<version>0.0.1</version>
+	<description>Contest of forecasters for the website liverpoolfc.ru</description>
+	<files>
+		<filename module="mod_contest">mod_contest.php</filename>
+		<filename>ContestDb.php</filename>
+		<filename>Contest.php</filename>
+		<filename>ContestPlayer.php</filename>
+		<filename>ContestForecast.php</filename>
+		<filename>index.html</filename>
+        	<filename>tmpl/default.php</filename>
+        	<filename>tmpl/index.html</filename>
+		<filename>tmpl/css/index.html</filename>
+   		<filename>tmpl/css/style.css</filename>
+		<filename>js/js_scripts.js</filename>
+	</files>
+</install>
